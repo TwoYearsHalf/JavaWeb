@@ -131,28 +131,29 @@ public class Run {
 
     }
 
-//     将4k壁纸复制到demo中
+//     4k壁纸复制
+
+  
 
     @Test
-    public void inputPhoto() throws IOException {
-        char[] chars = new char[1024];
-        File file_1 = new File("file/4K-卡特琳娜.png");
-        File file_2 = new File("file/copy.png");
+    public void copyPhoto() throws IOException {
+        FileInputStream fileInputStream = new FileInputStream(new File("file/4K-卡特琳娜.png"));
+        FileOutputStream fileOutputStream = new FileOutputStream(new File("file/copy.png"));
 
-        FileReader fileReader = new FileReader(file_1);
-        BufferedReader bufferedReader = new BufferdReader(fileReader);
+        BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
 
-        FileWriter fileWriter = new FileWriter(file_2);
-        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        // 创建一个字节数组，并设置数组长度，用于读取需要复制的文件
+        byte[] buff = new byte[1024];
 
-        while (true) {
-            String string = bufferedReader.readLine();
-            bufferedWriter.write(chars,0,1024);
-            if (null == string)
-                break;
+        // read方法返回的是int ，意为读入缓冲区的总字节数，如果读完了文件，则返回-1
+//        int by;
+
+        while ( bufferedInputStream.read(buff) != -1) {
+            bufferedOutputStream.write(buff, 0, buff.length);
         }
-        bufferedReader.close();
-
+        bufferedInputStream.close();
+        bufferedOutputStream.close();
 
     }
 

@@ -5,20 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e026c117-01f5-427e-bc22-d0ce58263882" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/Contry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/com/microsoft/IO/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWeb/com/microsoft/IO/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/microsoft/IO/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/microsoft/IO/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../DevTools/Java/JDK/jdk8/src.zip!/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Collection/Run.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/microsoft/Exception/Application.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/microsoft/IO/Run.java" root0="SKIP_INSPECTION" />
   </component>
@@ -63,39 +75,7 @@
       <recent name="E:\Project\Java\JavaWeb\file" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Run.copyPhoto">
-    <configuration name="Run.bufferedByteInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microsoft.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.microsoft.IO" />
-      <option name="MAIN_CLASS_NAME" value="com.microsoft.IO.Run" />
-      <option name="METHOD_NAME" value="bufferedByteInputStream" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run.bufferedByteOutputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microsoft.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.microsoft.IO" />
-      <option name="MAIN_CLASS_NAME" value="com.microsoft.IO.Run" />
-      <option name="METHOD_NAME" value="bufferedByteOutputStream" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Run.traverseArrayList">
     <configuration name="Run.bufferedReadStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWeb" />
       <extension name="coverage">
@@ -128,6 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run.genericsArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microsoft.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microsoft.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.Run" />
+      <option name="METHOD_NAME" value="genericsArrayList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run.inputPhoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWeb" />
       <extension name="coverage">
@@ -144,13 +140,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run.traverseArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microsoft.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microsoft.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.Run" />
+      <option name="METHOD_NAME" value="traverseArrayList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Run.copyPhoto" />
+        <item itemvalue="JUnit.Run.traverseArrayList" />
+        <item itemvalue="JUnit.Run.genericsArrayList" />
         <item itemvalue="JUnit.Run.inputPhoto" />
+        <item itemvalue="JUnit.Run.copyPhoto" />
         <item itemvalue="JUnit.Run.bufferedReadStream" />
-        <item itemvalue="JUnit.Run.bufferedByteOutputStream" />
-        <item itemvalue="JUnit.Run.bufferedByteInputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +229,17 @@
       <workItem from="1691768710243" duration="3540000" />
       <workItem from="1691854373130" duration="9968000" />
       <workItem from="1691925364494" duration="22242000" />
-      <workItem from="1692039200163" duration="599000" />
+      <workItem from="1692039200163" duration="4685000" />
+      <workItem from="1692091504727" duration="5593000" />
+      <workItem from="1692109408059" duration="4168000" />
+      <workItem from="1692115463741" duration="1023000" />
+      <workItem from="1692201860045" duration="3896000" />
+      <workItem from="1692882518457" duration="598000" />
+      <workItem from="1693039140189" duration="240000" />
+      <workItem from="1693039390732" duration="4235000" />
+      <workItem from="1693140883001" duration="605000" />
+      <workItem from="1693381777111" duration="756000" />
+      <workItem from="1693588899860" duration="5762000" />
     </task>
     <servers />
   </component>

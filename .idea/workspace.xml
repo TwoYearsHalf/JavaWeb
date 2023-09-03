@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e026c117-01f5-427e-bc22-d0ce58263882" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/Contry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/HashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/linkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Generics/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Generics/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Generics/Contry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/microsoft/Generics/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/com/microsoft/IO/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWeb/com/microsoft/IO/Run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/com/microsoft/Collection/Run.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/microsoft/Collection/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/microsoft/Collection/ArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -28,10 +34,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../DevTools/Java/JDK/jdk8/src.zip!/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Collection/Run.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../DevTools/Java/JDK/jdk8/src.zip!/java/util/Stack.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Collection/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Collection/HashMapTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Collection/HashSetTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Collection/Node.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Collection/linkedList.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/microsoft/Exception/Application.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Exception/Demo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Generics/Animal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Generics/Application.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/com/microsoft/Generics/Contry.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/com/microsoft/IO/Run.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -56,7 +70,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MicroChen/Desktop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/JavaWeb&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,7 +79,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.2764977&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -75,40 +89,8 @@
       <recent name="E:\Project\Java\JavaWeb\file" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Run.traverseArrayList">
-    <configuration name="Run.bufferedReadStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microsoft.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.microsoft.IO" />
-      <option name="MAIN_CLASS_NAME" value="com.microsoft.IO.Run" />
-      <option name="METHOD_NAME" value="bufferedReadStream" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run.copyPhoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microsoft.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.microsoft.IO" />
-      <option name="MAIN_CLASS_NAME" value="com.microsoft.IO.Run" />
-      <option name="METHOD_NAME" value="copyPhoto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run.genericsArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HashMapTest.HashMapTest">
+    <configuration name="ArrayList.linkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
@@ -117,30 +99,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.microsoft.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.Run" />
-      <option name="METHOD_NAME" value="genericsArrayList" />
+      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.ArrayList" />
+      <option name="METHOD_NAME" value="linkedListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run.inputPhoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microsoft.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.microsoft.IO" />
-      <option name="MAIN_CLASS_NAME" value="com.microsoft.IO.Run" />
-      <option name="METHOD_NAME" value="inputPhoto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run.traverseArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashMapTest.HashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +115,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.microsoft.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.Run" />
-      <option name="METHOD_NAME" value="traverseArrayList" />
+      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.HashMapTest" />
+      <option name="METHOD_NAME" value="HashMapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetTest.hashSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microsoft.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microsoft.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.HashSetTest" />
+      <option name="METHOD_NAME" value="hashSetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetTest.traverseHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microsoft.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microsoft.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.HashSetTest" />
+      <option name="METHOD_NAME" value="traverseHashSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList.queueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microsoft.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microsoft.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.microsoft.Collection.LinkedList" />
+      <option name="METHOD_NAME" value="queueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Run.traverseArrayList" />
-        <item itemvalue="JUnit.Run.genericsArrayList" />
-        <item itemvalue="JUnit.Run.inputPhoto" />
-        <item itemvalue="JUnit.Run.copyPhoto" />
-        <item itemvalue="JUnit.Run.bufferedReadStream" />
+        <item itemvalue="JUnit.HashMapTest.HashMapTest" />
+        <item itemvalue="JUnit.HashSetTest.traverseHashSet" />
+        <item itemvalue="JUnit.HashSetTest.hashSetTest" />
+        <item itemvalue="JUnit.LinkedList.queueTest" />
+        <item itemvalue="JUnit.ArrayList.linkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +253,11 @@
       <workItem from="1693039390732" duration="4235000" />
       <workItem from="1693140883001" duration="605000" />
       <workItem from="1693381777111" duration="756000" />
-      <workItem from="1693588899860" duration="5762000" />
+      <workItem from="1693588899860" duration="13717000" />
+      <workItem from="1693725691067" duration="219000" />
+      <workItem from="1693725918936" duration="10416000" />
+      <workItem from="1693756736160" duration="23000" />
+      <workItem from="1693756769773" duration="43000" />
     </task>
     <servers />
   </component>
@@ -270,11 +288,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/microsoft/IO/Run.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
